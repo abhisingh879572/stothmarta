@@ -1,0 +1,324 @@
+.lifes {
+
+    min-height: 150px;
+    border-radius: 4px;
+    transition: transform 0.6s;
+  }
+  
+  .lifes:hover {
+    transform: scale(1.1);
+    /* Zoom in on hover by 10% (adjust as needed) */
+    box-shadow: 0px 0px 4px rgb(7, 121, 167);
+  }
+  
+  
+  .lifess {
+  
+  
+    background: url("https://www.stothmarta.com/wp-content/uploads/2018/10/Life-Business-Coaching-Malta-Marta-S-Toth-Life-Business-Coach-Accredited-NLP-Trainer-Business-Trainer-Coaching-NLP-Courses-2.jpg");
+    min-height: 400px;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+  
+  .lifesss {
+    min-height: 350px;
+    background: rgba(12, 184, 184, 0.4);
+  
+  }
+  
+  .movie {
+    height: 240px;
+  
+  }
+  
+  .girls {
+    background: url("https://www.stothmarta.com/wp-content/uploads/2018/10/Life-Business-Coaching-Malta-Marta-S-Toth-Life-Business-Coach-Accredited-NLP-Trainer-Business-Trainer-Coaching-NLP-Courses-3.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    min-height: 450px;
+    ;
+  }
+  
+  .girls2 {
+    min-height: 450px;
+    ;
+    background: rgba(13, 168, 168, 0.4);
+  }
+  
+  
+  .girls1 {
+    background: url("https://www.stothmarta.com/wp-content/uploads/2018/10/Life-Business-Coaching-Malta-Marta-S-Toth-Life-Business-Coach-Accredited-NLP-Trainer-Business-Trainer-Coaching-NLP-Courses-4.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    min-height: 350px;
+  }
+  
+  .girls21 {
+    min-height: 350px;
+    background: rgba(9, 170, 170, 0.4);
+  }
+  
+  .lisbon {
+    background: url("https://www.stothmarta.com/wp-content/uploads/2018/10/NLP-Time-Line-Therapy-Marta-S-Toth-Life-Business-Coach-Accredited-NLP-Trainer-Business-Trainer-Coaching-NLP-Courses-1.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    min-height: 350px;
+  }
+  
+  
+  
+  .lisbon1 {
+    min-height: 350px;
+    background: rgba(15, 148, 148, 0.7);
+  }
+  
+
+
+
+
+
+
+
+
+  .motumb-btn {
+    background-color: transparent;
+    border: none;
+    box-shadow: inset 0 0 0 3px #6495ED;
+    font-family: Roboto, sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #6495ED;
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding: 10px 40px;
+    position: relative;
+    transition: 0.2s ease all;
+    transform-origin: center;
+  
+    top: 50%;
+  
+    overflow: hidden;
+  
+    span {
+  
+      &:before,
+      &:after {
+        content: '';
+        display: block;
+        position: absolute;
+        background: #FFE74C;
+        transition: 0.35s ease all;
+        transition-delay: 0.1s;
+      }
+  
+      &:first-child {
+  
+        &:before,
+        &:after {
+          width: 0%;
+          height: 3px;
+        }
+  
+        &:before {
+          top: 0;
+          left: 0;
+        }
+  
+        &:after {
+          bottom: 0;
+          left: 100%;
+        }
+      }
+    }
+  
+    &:last-child {
+  
+      &:before,
+      &:after {
+        width: 3px;
+        height: 0%;
+      }
+  
+      &:before {
+        top: 0%;
+        left: 0;
+      }
+  
+      &:after {
+        top: 100%;
+        right: 0;
+      }
+    }
+  
+    &:before,
+    &:after {
+      content: '';
+      display: block;
+      width: 0%;
+      height: 90%;
+      background: #FFE74C;
+      position: absolute;
+      top: 50%;
+      left: 0;
+      transform: translateY(-50%);
+      z-index: -1;
+      transition: all 0.25s ease-in-out .2s;
+      transition-delay: 0.5s;
+    }
+  
+    &:after {
+      background: #ffbf1e;
+      transition: 0.25s ease-in-out .2s;
+      transition-delay: 0.4s;
+      width: 80%;
+      left: -80%;
+    }
+  
+    &:hover,
+    &:active,
+    &:focus {
+      box-shadow: inset 0 0 0 0 #36213E;
+      padding: 15px 50px;
+      margin: -5px -10px;
+      color: #e6510c;
+  
+      &:before {
+        width: calc(100% - 6px);
+        left: 3px;
+        box-shadow: inset 0 0 0 4px #36213E;
+      }
+  
+      &:after {
+        left: 100%;
+        box-shadow: inset 0 0 0 3px white;
+      }
+  
+      span {
+        &:first-child {
+  
+          &:before,
+          &:after {
+            width: 100%;
+  
+            .men1 {
+              min-height: 450px;
+              background: rgba(71, 73, 73, 0.7);
+            }
+  
+          }
+  
+          &:before {
+            top: 0;
+            left: 0;
+          }
+  
+          &:after {
+            bottom: 0;
+            left: 0;
+          }
+        }
+  
+        &:last-child {
+  
+          &:before,
+          &:after {
+            height: 100%;
+          }
+  
+          &:before {
+            top: 0;
+            left: 0;
+          }
+  
+          &:after {
+            top: 0;
+            right: 0;
+          }
+        }
+      }
+    }
+  }
+  .men {
+    background: url("  https://www.stothmarta.com/wp-content/uploads/2018/10/Life-Business-Coaching-Malta-Marta-S-Toth-Life-Business-Coach-Accredited-NLP-Trainer-Business-Trainer-Coaching-NLP-Courses-5.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    min-height: 450px;
+  }
+  
+  
+  
+  .men1 {
+    min-height: 450px;
+    background: rgba(9, 177, 177, 0.7);
+  }
+  
+  
+  
+  .glows-on-hover {
+    width: 220px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #a34c05;
+    cursor: pointer;
+  
+    z-index: 0;
+    border-radius: 10px;
+  }
+  
+  .glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+  }
+  
+  .glow-on-hover:active {
+    color: #000
+  }
+  
+  .glow-on-hover:active:after {
+    background: transparent;
+  }
+  
+  .glow-on-hover:hover:before {
+    opacity: 1;
+  }
+  
+  .glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+  }
+  
+  @keyframes glowing {
+    0% {
+      background-position: 0 0;
+    }
+  
+    50% {
+      background-position: 400% 0;
+    }
+  
+    100% {
+      background-position: 0 0;
+    }
+  }
